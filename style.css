@@ -1,4 +1,34 @@
+
+.is-header {
+  background-color: #5264ae;
+  display: flex;
+  height: 60px;
+  color: white;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+.is-header .is-left {
+  background-color: #4e5fa5;
+  height: 100%;
+  line-height: 60px;
+  padding: 0 20px;
+}
+.is-header .is-right {
+  background-color: #4e5fa5;
+  height: 100%;
+  line-height: 60px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+header .left:hover,
+header .right:hover {
+  cursor: pointer;
+}
+header .right img {
+}
 /* end: header to 이삭 */
+
 .hw-section {
   width: 1140px;
   height: 321px;
@@ -17,8 +47,84 @@
 }
 /* end: first section to 혜원 */
 
+body {
+  background-color: #eee;
+}
+.hi-first-section {
+  width: 1140px;
+  height: 321px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 50px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+}
+.hi-first-section-hd {
+  font-size: 40px;
+  padding-top: 30px;
+}
+.hi-first-section-main {
+  padding-top: 10px;
+}
+.hi-first-section-main {
+  line-height: 20px;
+  font-size: 15px;
+  padding-top: 15px;
+}
+.hi-first-section-main strong {
+  font-weight: bold;
+}
+.hi-first-section-date {
+  font-size: 13px;
+  padding-top: 30px;
+}
+.hi-first-section-btn {
+  background-color: #03a9f4;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 20px;
+}
 /* end: first section to 혜인 */
 
+body {
+  background-color: #eee;
+}
+body .hyerim  {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  padding: 100px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
 /* end: second section to 혜림 */
 
+
+.hk-chickenmember {
+  box-shadow: 10px 5px 5px black;
+  padding: 19px;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+}
+.hk-chickenmember>* {
+  margin-bottom: 50px;
+}
+.hk-chickenmember h2 {
+  font-size: 30px;
+}
+.hk-chickenmember .number {
+  border: none;
+  border-bottom: 1px solid;
+}
+.hk-chickenmember .btn {
+  background-color:#0f9d58;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
 /* end: second section to 해경 */
