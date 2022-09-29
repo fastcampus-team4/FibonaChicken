@@ -7,3 +7,27 @@
 /* end: second section to 혜림 */
 
 /* end: second section to 해경 */
+.hk-chickenmember {
+  box-shadow: 10px 5px 5px black;
+  padding: 19px;
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+}
+.hk-chickenmember>* {
+  margin-bottom: 50px;
+}
+.hk-chickenmember h2 {
+  font-size: 30px;
+}
+.hk-chickenmember .number {
+  border: none;
+  border-bottom: 1px solid;
+}
+.hk-chickenmember .btn {
+  background-color:#0f9d58;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
