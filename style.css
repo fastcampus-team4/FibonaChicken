@@ -1,3 +1,4 @@
+
 .is-header {
   background-color: #5264ae;
   display: flex;
@@ -26,8 +27,26 @@ header .right:hover {
 }
 header .right img {
 }
+/* end: header to 이삭 */
 
+.hw-section {
+  width: 1140px;
+  height: 321px;
+  margin: 30px auto;
+  padding: 19px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  background-color: #fff;
+}
+.hw-section__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-size: 40px;
+}
 /* end: first section to 혜원 */
+
 body {
   background-color: #eee;
 }
@@ -83,7 +102,7 @@ body .hyerim  {
 }
 /* end: second section to 혜림 */
 
-/* end: second section to 해경 */
+
 .hk-chickenmember {
   box-shadow: 10px 5px 5px black;
   padding: 19px;
@@ -108,3 +127,4 @@ body .hyerim  {
   height: 40px;
   font-size: 20px;
 }
+/* end: second section to 해경 */
