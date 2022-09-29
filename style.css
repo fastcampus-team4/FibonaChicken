@@ -1,7 +1,22 @@
 /* end: header to 이삭 */
 
 /* end: first section to 혜원 */
-
+.hw-section {
+  width: 1140px;
+  height: 321px;
+  margin: 30px auto;
+  padding: 19px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  background-color: #fff;
+}
+.hw-section__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-size: 40px;
+}
 /* end: first section to 혜인 */
 
 /* end: second section to 혜림 */
